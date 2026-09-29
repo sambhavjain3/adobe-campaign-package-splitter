@@ -71,4 +71,4 @@ Exit codes:
 
 - The source file is never modified. Output files are UTF-8.
 - Splitting several files at once splits each one on its own. Links *between* input files are reported by **Analyze** but not fixed.
-- Links by numeric record ID (for example `<delivery id="974442">` inside a query filter) point to IDs on the source instance. They are listed so you can re-link them after import.
+- Links by numeric record ID (for example `<delivery id="123456">` inside a query filter) point to IDs on the source instance. They are listed so you can re-link them after import.
